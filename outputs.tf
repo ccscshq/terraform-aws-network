@@ -18,3 +18,7 @@ output "private_subnet_azs" {
   description = "List of availability zones of private subnets."
   value       = aws_subnet.private[*].availability_zone
 }
+output "default_security_group_id" {
+  description = "ID of the default security group."
+  value       = aws_default_security_group.this.id
+}
