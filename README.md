@@ -51,6 +51,7 @@ No modules.
 
 | Name | Description |
 |------|-------------|
+| <a name="output_default_security_group_id"></a> [default\_security\_group\_id](#output\_default\_security\_group\_id) | ID of the default security group. |
 | <a name="output_private_subnet_azs"></a> [private\_subnet\_azs](#output\_private\_subnet\_azs) | List of availability zones of private subnets. |
 | <a name="output_private_subnet_ids"></a> [private\_subnet\_ids](#output\_private\_subnet\_ids) | List of IDs of private subnets. |
 | <a name="output_public_subnet_ids"></a> [public\_subnet\_ids](#output\_public\_subnet\_ids) | List of IDs of public subnets. |
