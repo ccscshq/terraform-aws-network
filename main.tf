@@ -45,7 +45,7 @@ resource "aws_internet_gateway" "this" {
 resource "aws_eip" "nat" {
   count = var.subnets_number
 
-  vpc = true
+  domain = "vpc"
 
   tags = {
     Name = "${var.prefix}-nat-${local.az_suffix[count.index]}"
